@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.deps.json
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.dll
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.pdb
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.AssemblyInfo.cs
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.dll
+C:\Users\hp\Desktop\Blazors\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.pdb

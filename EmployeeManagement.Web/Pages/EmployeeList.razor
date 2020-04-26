@@ -1,0 +1,20 @@
+﻿@page "/"
+@inherits EmployeeListBase
+
+
+<h3>Employee List</h3>
+<h4>Selected Employees Count - @SelectedEmployeesCount</h4>
+
+@if (Employees != null)
+{
+    <div class="container">
+        <input type="checkbox" id="showhideFooter" @bind="ShowFooter" />
+        <label for="showhideFooter">Show Footer --> @ShowFooter</label>
+        @foreach (var employee in Employees)
+        {
+            <DisplayEmployee Employee="@employee"
+                             ShowFooter="ShowFooter"
+                             OnEmployeeSelection="EmployeeSelectionChanged"></DisplayEmployee>
+        }
+    </div>
+}

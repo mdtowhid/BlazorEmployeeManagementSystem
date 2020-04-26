@@ -1,0 +1,23 @@
+﻿@page "/employeedetails/{id}"
+@inherits EmployeeDetailsBase
+
+
+@if (Employee == null || Employee.Department == null)
+{
+    <div>Employee Null</div>
+
+}
+else
+{
+    <h3>@Employee.FirstName @Employee.LastName @Coordinates</h3>
+    <h3>Department @Employee.Department.DepartmentName</h3>
+    <img src="@Employee.PhotoPath" class="img-responsive img-thumbnail" 
+         @onmousemove="@(e=>Coordinates = $"X={e.ClientX} Y={e.ClientY}")"/>
+         <button class="btn btn-success " @onclick="Button_Click">@ButtonText</button>
+
+    <div class="@CssClass">
+        <a href="/" class="btn btn-info">Back</a>
+        <a href="@($"editemployee/{Employee.EmployeeId}")" class="btn btn-outline-info">Edit</a>
+        <a href="#" class="btn btn-danger">Delete</a>
+    </div>
+}
